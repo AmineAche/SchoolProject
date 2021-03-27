@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+
+  <meta charset="utf-8">
+  <link href="quiz.css" rel="stylesheet">
+  <script src="quiz.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title> Quizz </title>
+
+</head>
+
+<body>
+  <div class="Container">
+  
+  <div class="intro" id="intro">
+    <h1 class="caption">Click sur le bouton pour commencer !</h1>
+    <div class="button">
+      <button onclick="game()" class="start">Start</button>
+    </div>
+  </div>
+
+  <div class="container_q" id="quiz" hidden>
+    <div id="answers" class="answers">
+  </div>
+
+
+  <div class="final" id="final" hidden>
+    <h1 id="house2" class="caption"></h1>
+    <p>CONGRATS ! You're in the noble house of <span id="house1"></span>! Enjoy your new life with your friends !</p>
+  </div>
+  </div>
+</body>
+
+</html>
